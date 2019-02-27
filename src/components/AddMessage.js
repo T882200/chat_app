@@ -17,6 +17,7 @@ const AddMessage = (props) => {
 				ref={(node) => {
 					input = node
 				}}
+				className="input_green"
 			/>
 		</section>
 	)

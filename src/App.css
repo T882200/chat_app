@@ -7,6 +7,8 @@
 }
 body {
     font-family: "Press Start 2P";
+    background-color: #000;
+    color: #00FF41 ;
 }
 #container {
     display: grid;
@@ -34,4 +36,15 @@ body {
     padding: 5px 0 0 5px;
     border-right: 1px solid #3f3f3f;
     height: 100%;
+}
+
+.input_green {
+    background-color: #008F11;
+    border-radius: 10px;
+    border:none;
+    padding: 20px;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+    display: block;
+    margin: 0 20%;
+    
 }
